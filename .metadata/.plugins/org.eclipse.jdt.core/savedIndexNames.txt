@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\sarinha\Documents\ativ_exemplo\.metadata\.plugins\org.eclipse.jdt.core
