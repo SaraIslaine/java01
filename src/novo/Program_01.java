@@ -26,5 +26,4 @@ public class Program_01 {
 		
 		sc.close();
 	}	
-
 }
