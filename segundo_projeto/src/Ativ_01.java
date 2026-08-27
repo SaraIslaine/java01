@@ -22,5 +22,6 @@ public static void main(String[] args) {
 	System.out.printf("Measue With eight decimal places: %.8f%n", measure);
 	System.out.printf("Roud (three decimal places): %.3f%n", measure);
 	System.out.printf("US decimal point: %.3f%n", measure);
+	
 }
 }

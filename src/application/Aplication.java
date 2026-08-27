@@ -14,16 +14,17 @@ public class Aplication {
 		Account account;
 		
   System.out.print("Enter account number: ");
-  int number = sc.nextInt();
+  int number = sc.nextInt();  // essa funcao serve para voce digitar o numero 
   System.out.print("Enter account holder: ");
   sc.nextLine();
+  
   String holder = sc.nextLine();
   System.out.print("Is there an initial deposit (y/n)? ");
   char response = sc.next().charAt(0);
   if (response == 'y') {
 	 System.out.print("Enter initial deposit value: ");
-	 double initialDeposit = sc.nextDouble();
-	 account = new Account(number, holder,initialDeposit); 
+	 double initialDeposit = sc.nextDouble(); // sc.nextDouble serve para digitar o deposito inicil
+	 account = new Account(number, holder,initialDeposit); // chama a funcao Account criada em outro pacote
   }
   else {
 	  account = new Account(number, holder);
