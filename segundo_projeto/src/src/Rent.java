@@ -1,12 +1,12 @@
 package src;
 
 public class Rent {
-    
+
 	private String name;
 	private String email;
-	
+
 	public Rent() {
-		
+
 	}
 
 	public Rent(String name, String email) {
@@ -29,11 +29,10 @@ public class Rent {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
+
 	@Override
 	public String toString() {
-		return   name + "," + email ;
+		return name + "," + email;
 	}
-	
-	
+
 }

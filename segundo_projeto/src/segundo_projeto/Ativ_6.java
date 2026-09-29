@@ -9,15 +9,15 @@ public class Ativ_6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        Locale.setDefault(Locale.US);
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+
 		Rent[] vect = new Rent[10];
-		
+
 		System.out.print("Qual o numero do quarto que você deseja alugar ");
-		int n =sc.nextInt();
-		
-		for (int i=1; i<=n; i++) {
+		int n = sc.nextInt();
+
+		for (int i = 1; i <= n; i++) {
 			System.out.println();
 			System.out.println("Rent #" + i + ":");
 			System.out.print("nome: ");
@@ -27,23 +27,20 @@ public class Ativ_6 {
 			String email = sc.next();
 			System.out.print("Quarto: ");
 			int roomNumber = sc.nextInt();
-			
-			
+
 			vect[roomNumber] = new Rent(name, email);
-            
+
 		}
-		
+
 		System.out.println();
 		System.out.println("Busy rooms: ");
-		for (int i=0; i<10; i++) {
+		for (int i = 0; i < 10; i++) {
 			if (vect[i] != null) {
-			System.out.println(i + ":" + vect[i]);
+				System.out.println(i + ":" + vect[i]);
 			}
 		}
-		
-		sc.close();
-			}
 
+		sc.close();
 	}
 
-
+}

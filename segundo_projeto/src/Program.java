@@ -13,14 +13,13 @@ public class Program {
 
 		System.out.println("qual a sua idade " + y);
 		System.out.printf("%.2f%n", x);
-		System.out.printf("qual a quilometragem %.4f%n ",+ x);
+		System.out.printf("qual a quilometragem %.4f%n ", +x);
 		Locale.setDefault(Locale.US);
 		System.out.println("Bom dia! ");
 		System.out.println("Resultado = " + x + " Metros");
 		System.out.printf("Resultado = %.2f metros%n", x);
-        System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
-        
-        
-        sc.close();
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+
+		sc.close();
 	}
 }
