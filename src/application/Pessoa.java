@@ -1,14 +1,12 @@
 package application;
 
-
-
 public class Pessoa {
-	
+
 	int idade;
 	String nome;
 	String sexo;
 	double altura;
-	
+
 	/**
 	 * @param idade
 	 * @param nome
@@ -45,16 +43,17 @@ public class Pessoa {
 	public void setAltura(double altura) {
 		this.altura = altura;
 	}
-	public String retornaNomeIdade() {
-		return "Meu nome é " + getNome()+ " tenho " + getIdade();
-	}
-	public String calcularAltura() {
-	if (this.altura >= 1.0) {
-		return "ele é alto";
-	} else if(this.altura < 1.0) {
-		return "ele é baixo";
-	}
-	return "sem altura definida";
-}
-}
 
+	public String retornaNomeIdade() {
+		return "Meu nome é " + getNome() + " tenho " + getIdade();
+	}
+
+	public String calcularAltura() {
+		if (this.altura >= 1.0) {
+			return "ele é alto";
+		} else if (this.altura < 1.0) {
+			return "ele é baixo";
+		}
+		return "sem altura definida";
+	}
+}

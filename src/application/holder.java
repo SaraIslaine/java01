@@ -14,7 +14,7 @@ public class holder {
 		//System.out.println(pessoa.nome);
 		//System.out.println(pessoa.idade);
 		//System.out.println(pessoa.sexo);
-		//.out.println(pessoa.altura);
+		// .out.println(pessoa.altura);
 
 		//System.out.println(pessoa.retornaNomeIdade());	
 		System.out.println(funcionario.calcularAltura());

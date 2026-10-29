@@ -6,8 +6,5 @@ public class Triangle {
 	public double b;
 	public double c;
 	public double D;
-	
-	  
-	
-	
+
 }

@@ -6,15 +6,11 @@ public class Funcionario extends Pessoa {
 		super(idade, nome, sexo, altura);
 		// TODO Auto-generated constructor stub
 	}
-	
-	
+
 	@Override
 	public String calcularAltura() {
 		// TODO Auto-generated method stub
 		return "Funcionario";
 	}
-
-	
-
 
 }

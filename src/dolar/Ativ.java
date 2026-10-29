@@ -18,8 +18,6 @@ public class Ativ {
 		System.out.print("What is the dollar price? ");
 		double many = sc.nextDouble();
 
-		
-
 		System.out.printf("circumferencia %.2f%n");
 
 		sc.close();
